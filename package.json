@@ -1,6 +1,6 @@
 {
   "name": "transform-stream-extensions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic extensions to node's Transform stream.",
   "license": "GPL-3.0",
   "author": "Danny McClanahan <danieldmcclanahan@gmail.com>",
