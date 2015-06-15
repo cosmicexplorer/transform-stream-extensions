@@ -1,0 +1,25 @@
+{
+  "name": "transform-stream-extensions",
+  "version": "0.0.0",
+  "description": "Basic extensions to node's Transform stream.",
+  "license": "GPL-3.0",
+  "author": "Danny McClanahan <danieldmcclanahan@gmail.com>",
+  "scripts": {
+    "prepublish": "make",
+    "test": "make check"
+  },
+  "main": "transform-stream-extensions.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cosmicexplorer/transform-stream-extensions.git"
+  },
+  "keywords": [
+    "transform",
+    "stream",
+    "extensions",
+    "base"
+  ],
+  "devDependencies": {
+    "coffee-script": "1.9.x"
+  }
+}
