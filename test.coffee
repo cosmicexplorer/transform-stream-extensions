@@ -19,4 +19,5 @@ resStream.on 'pipe', (src) ->
   else
     throw new Error "source pipes don't match!"
 
+# this always fails because filenames can't have null bytes
 fs.createReadStream('\0').pipe resStream

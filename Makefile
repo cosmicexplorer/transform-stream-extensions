@@ -13,5 +13,5 @@ all: $(OBJ)
 clean:
 	rm -f $(OBJ)
 
-check:
+check: all
 	$(COFFEE_CC) test.coffee
