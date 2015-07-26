@@ -3,9 +3,7 @@ Transform = require('stream').Transform
 # just inherit from this, and call super(opts) at the top of your ctor
 module.exports =
 class TransformStreamExtensions extends Transform
-  constructor: (opts) ->
-    if not opts
-      opts = {}
+  constructor: (opts = {}) ->
     if not @ instanceof TransformStreamExtensions
       return new TransformStreamExtensions opts
     else
